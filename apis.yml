@@ -1,8 +1,29 @@
 aid: phare-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phare-health.png
 name: Phare Health
-description: Phare Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Phare Health builds AI tools for healthcare revenue cycle management (RCM),
+  focused on medical coding and clinical documentation improvement (CDI). Its
+  platform analyzes complete electronic health records to generate accurate,
+  compliant medical codes and to catch coding errors before bills are
+  submitted. Products include Phare Audit (a pre-bill safety net that screens
+  encounters for errors), Phare Autonomous (automated coding of simpler cases
+  with explainability), and Phare Analytics (coding workflow and financial
+  monitoring). The UK-founded, General Catalyst-backed company has been
+  acquired by R1 and integrated into its R37 lab division. Phare Health
+  operates as a closed B2B product and publishes no public developer API,
+  documentation, SDK, or status page at this time.
 url: https://raw.githubusercontent.com/api-evangelist/phare-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Revenue Cycle Management
+- Medical Coding
+- Clinical Documentation
+- Artificial Intelligence
+- Health IT
 apis: []
+common:
+- type: Website
+  url: https://phare.health/
+- type: About
+  url: https://phare.health/company/
+- type: Careers
+  url: https://jobs.ashbyhq.com/phare-r1-r37
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/phare-health
+- type: PrivacyPolicy
+  url: https://phare.health/privacy-notice/
+- type: Compliance
+  url: https://phare.health/
+- type: TrustCenter
+  url: security/phare-health-trust-center.yml
+- type: DomainSecurity
+  url: security/phare-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
